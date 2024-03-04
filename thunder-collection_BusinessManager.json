@@ -1,0 +1,416 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "BusinessManager",
+    "dateExported": "2024-03-04T03:51:05.929Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "248b0a50-060b-4976-b176-8aaea04f6f0b",
+            "name": "User",
+            "containerId": "",
+            "created": "2024-02-29T03:36:48.724Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "14ccd4b4-8782-41a2-ab12-53d924d2d883",
+            "name": "Category",
+            "containerId": "",
+            "created": "2024-03-01T01:48:55.657Z",
+            "sortNum": 15000
+        },
+        {
+            "_id": "6a48d663-574a-42b1-9f49-3e2d871d6179",
+            "name": "Company",
+            "containerId": "",
+            "created": "2024-02-29T03:36:56.675Z",
+            "sortNum": 20000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "5c5778ff-7ec6-46e1-9c89-45018f43e1dd",
+            "colId": "1e7719d2-2996-4770-a373-12c455c146e3",
+            "containerId": "248b0a50-060b-4976-b176-8aaea04f6f0b",
+            "name": "testUser",
+            "url": "test",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-02-29T03:37:46.732Z",
+            "modified": "2024-03-01T02:08:22.749Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUxMzU5Mzg2YWQ3MjMxZTE3NmZlODQiLCJ1c2VybmFtZSI6ImpnYXJjaWEiLCJuYW1lIjoiSm9uYXRoYW4iLCJyb2xlIjoiQURNSU4iLCJpYXQiOjE3MDkyNTg4NjMsImV4cCI6MTcwOTI2OTY2M30.GGZPdDExkQC8xjDpnj_jn5ga47FdhOJOunI1OVtXXno"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "122cc2f5-e2f3-411e-8692-3ceb14925033",
+            "colId": "1e7719d2-2996-4770-a373-12c455c146e3",
+            "containerId": "248b0a50-060b-4976-b176-8aaea04f6f0b",
+            "name": "addUser",
+            "url": "register",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-03-01T01:51:55.157Z",
+            "modified": "2024-03-01T01:55:31.977Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Jonathan"
+                    },
+                    {
+                        "name": "surname",
+                        "value": "Garcia"
+                    },
+                    {
+                        "name": "username",
+                        "value": "jgarcia"
+                    },
+                    {
+                        "name": "password",
+                        "value": "12345678"
+                    },
+                    {
+                        "name": "email",
+                        "value": "jgarcia@gmail.com"
+                    },
+                    {
+                        "name": "phone",
+                        "value": "56438924"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "412aa3aa-991f-467f-a31e-f2872c8dc3c7",
+            "colId": "1e7719d2-2996-4770-a373-12c455c146e3",
+            "containerId": "248b0a50-060b-4976-b176-8aaea04f6f0b",
+            "name": "login",
+            "url": "login",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-03-01T01:59:50.421Z",
+            "modified": "2024-03-01T02:07:43.963Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "email",
+                        "value": "jgarcia@gmail.com"
+                    },
+                    {
+                        "name": "password",
+                        "value": "12345678"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "6336fbc3-710b-4d68-8520-46e6ebd7122c",
+            "colId": "1e7719d2-2996-4770-a373-12c455c146e3",
+            "containerId": "248b0a50-060b-4976-b176-8aaea04f6f0b",
+            "name": "updateUser",
+            "url": "update/65e1359386ad7231e176fe84",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-03-01T02:09:13.325Z",
+            "modified": "2024-03-01T02:14:09.527Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUxMzU5Mzg2YWQ3MjMxZTE3NmZlODQiLCJ1c2VybmFtZSI6ImpnYXJjaWEiLCJuYW1lIjoiSm9uYXRoYW4iLCJyb2xlIjoiQURNSU4iLCJpYXQiOjE3MDkyNTg4NjMsImV4cCI6MTcwOTI2OTY2M30.GGZPdDExkQC8xjDpnj_jn5ga47FdhOJOunI1OVtXXno"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Jose"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "a5ee5270-e0bc-4ba6-9e14-bb0542aba0f8",
+            "colId": "1e7719d2-2996-4770-a373-12c455c146e3",
+            "containerId": "248b0a50-060b-4976-b176-8aaea04f6f0b",
+            "name": "deleteUserer",
+            "url": "",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2024-03-01T02:14:56.432Z",
+            "modified": "2024-03-01T02:14:56.432Z",
+            "headers": []
+        },
+        {
+            "_id": "9a252e61-8d36-42b2-b9b2-459b37e14139",
+            "colId": "1e7719d2-2996-4770-a373-12c455c146e3",
+            "containerId": "14ccd4b4-8782-41a2-ab12-53d924d2d883",
+            "name": "addCategory",
+            "url": "category/register",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2024-03-01T02:58:10.926Z",
+            "modified": "2024-03-01T04:18:28.608Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUxMzU5Mzg2YWQ3MjMxZTE3NmZlODQiLCJ1c2VybmFtZSI6ImpnYXJjaWEiLCJuYW1lIjoiSm9zZSIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTcwOTI2MjAwOCwiZXhwIjoxNzA5MjcyODA4fQ.Y2RlnLTfaHvjpMpip3NpSPEarXHobxb3THQHW7g_24A"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "nameCategory",
+                        "value": "Empresa"
+                    },
+                    {
+                        "name": "description",
+                        "value": "jasjd"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "9a0ee724-9bdc-4333-b51f-2e59ba314494",
+            "colId": "1e7719d2-2996-4770-a373-12c455c146e3",
+            "containerId": "14ccd4b4-8782-41a2-ab12-53d924d2d883",
+            "name": "searchCategory",
+            "url": "category/search",
+            "method": "POST",
+            "sortNum": 70000,
+            "created": "2024-03-01T03:07:04.218Z",
+            "modified": "2024-03-01T03:37:51.590Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "nameCategory",
+                        "value": "Empresa Nacional"
+                    },
+                    {
+                        "name": "description",
+                        "value": "",
+                        "isDisabled": true
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "ddff4917-064a-489e-a046-14d46a1f9818",
+            "colId": "1e7719d2-2996-4770-a373-12c455c146e3",
+            "containerId": "14ccd4b4-8782-41a2-ab12-53d924d2d883",
+            "name": "getCategory",
+            "url": "category/get",
+            "method": "GET",
+            "sortNum": 80000,
+            "created": "2024-03-01T03:10:52.034Z",
+            "modified": "2024-03-01T03:11:20.283Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "c2db2de0-877a-4555-b5a5-167028d05c33",
+            "colId": "1e7719d2-2996-4770-a373-12c455c146e3",
+            "containerId": "6a48d663-574a-42b1-9f49-3e2d871d6179",
+            "name": "addCompany",
+            "url": "company/create",
+            "method": "POST",
+            "sortNum": 90000,
+            "created": "2024-03-01T03:11:45.754Z",
+            "modified": "2024-03-01T03:38:03.374Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUxMzU5Mzg2YWQ3MjMxZTE3NmZlODQiLCJ1c2VybmFtZSI6ImpnYXJjaWEiLCJuYW1lIjoiSm9zZSIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTcwOTI2MjAwOCwiZXhwIjoxNzA5MjcyODA4fQ.Y2RlnLTfaHvjpMpip3NpSPEarXHobxb3THQHW7g_24A"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "nameCompany",
+                        "value": "industry SA"
+                    },
+                    {
+                        "name": "impactLevel",
+                        "value": "medium"
+                    },
+                    {
+                        "name": "yearsOfExperience",
+                        "value": "10"
+                    },
+                    {
+                        "name": "category",
+                        "value": "65e145fc6ed4141917465d1d"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "e820fccd-14c4-4590-adbe-2caadfc95e3a",
+            "colId": "1e7719d2-2996-4770-a373-12c455c146e3",
+            "containerId": "6a48d663-574a-42b1-9f49-3e2d871d6179",
+            "name": "getReportExcel",
+            "url": "company/excelReport",
+            "method": "GET",
+            "sortNum": 100000,
+            "created": "2024-03-01T03:47:52.230Z",
+            "modified": "2024-03-01T04:10:20.928Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUxMzU5Mzg2YWQ3MjMxZTE3NmZlODQiLCJ1c2VybmFtZSI6ImpnYXJjaWEiLCJuYW1lIjoiSm9zZSIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTcwOTI2NTI3NiwiZXhwIjoxNzA5Mjc2MDc2fQ.G-4SEz1B4NXr39-zHiHjJbLbcSGOsDN2pKvRoJ6Dnqg",
+                    "isDisabled": true
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "nameCategory",
+                        "value": "Ryzer",
+                        "isDisabled": true
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "abe6bf66-134b-4d46-8603-e88bbc2645bd",
+            "colId": "1e7719d2-2996-4770-a373-12c455c146e3",
+            "containerId": "14ccd4b4-8782-41a2-ab12-53d924d2d883",
+            "name": "updateCategory",
+            "url": "category/update/65e145fc6ed4141917465d1d?nameCategory",
+            "method": "PUT",
+            "sortNum": 110000,
+            "created": "2024-03-01T04:17:40.708Z",
+            "modified": "2024-03-01T04:19:05.066Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "nameCategory",
+                    "value": "",
+                    "isPath": false
+                }
+            ],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "nameCategory",
+                        "value": "Empresa regional"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "ff8985ca-28dc-40f4-8122-14a47eb0c757",
+            "colId": "1e7719d2-2996-4770-a373-12c455c146e3",
+            "containerId": "14ccd4b4-8782-41a2-ab12-53d924d2d883",
+            "name": "deleteCategory",
+            "url": "category/delete/65e14f4cf3f640d8d3096114",
+            "method": "DELETE",
+            "sortNum": 120000,
+            "created": "2024-03-01T04:20:02.840Z",
+            "modified": "2024-03-01T04:21:20.708Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "f0b4d93d-c773-4713-83da-96bd786e95b0",
+            "colId": "1e7719d2-2996-4770-a373-12c455c146e3",
+            "containerId": "6a48d663-574a-42b1-9f49-3e2d871d6179",
+            "name": "companyGetAZ",
+            "url": "company/getAZ",
+            "method": "GET",
+            "sortNum": 130000,
+            "created": "2024-03-04T03:47:53.501Z",
+            "modified": "2024-03-04T03:48:07.084Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "bdd6a983-efbc-4f96-95db-d8f7239bfff2",
+            "colId": "1e7719d2-2996-4770-a373-12c455c146e3",
+            "containerId": "6a48d663-574a-42b1-9f49-3e2d871d6179",
+            "name": "companyGetZA",
+            "url": "company/getZA",
+            "method": "GET",
+            "sortNum": 140000,
+            "created": "2024-03-04T03:48:22.238Z",
+            "modified": "2024-03-04T03:48:31.445Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "91225829-8b85-4c2e-b239-33abbe1d1e12",
+            "colId": "1e7719d2-2996-4770-a373-12c455c146e3",
+            "containerId": "6a48d663-574a-42b1-9f49-3e2d871d6179",
+            "name": "updateCompany",
+            "url": "company/update/65e14be5b66e390d92a90dba",
+            "method": "PUT",
+            "sortNum": 150000,
+            "created": "2024-03-04T03:49:14.633Z",
+            "modified": "2024-03-04T03:49:41.979Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "692d1beb-a62a-4676-9357-77dfac64b591",
+            "colId": "1e7719d2-2996-4770-a373-12c455c146e3",
+            "containerId": "6a48d663-574a-42b1-9f49-3e2d871d6179",
+            "name": "getExperience",
+            "url": "company/getExperiences",
+            "method": "GET",
+            "sortNum": 170000,
+            "created": "2024-03-04T03:50:31.254Z",
+            "modified": "2024-03-04T03:50:48.188Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ],
+    "settings": {
+        "options": {
+            "baseUrl": "http://localhost:2659/"
+        }
+    }
+}
